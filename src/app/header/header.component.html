@@ -9,10 +9,6 @@
             <li><a href="/episode">Episode</a></li>
             <li><a href="/personnage">Personnage</a></li>
             <li><a href="/jeux">Jeux</a></li>
-            <li>
-                <a *ngIf="!(isLoggin$ | async)" href="/login">Login</a>
-                <a *ngIf="(isLoggin$ | async)" href="#" (click)="logout()">Logout</a>
-            </li>
         </ul>
         <button class="hamburger-menu" (click)="toggleMenu()">
             <span></span>

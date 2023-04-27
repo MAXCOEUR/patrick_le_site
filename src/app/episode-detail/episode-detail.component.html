@@ -1,0 +1,7 @@
+<section>
+    <article>
+        <h2>{{episode.titre}}</h2>
+        <iframe width="100%" height="500" [src]="getSafeUrl(episode.lien)" [title]="episode.titre" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        <p>{{episode.description}}</p>
+    </article>
+</section>
