@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
 import { Router } from '@angular/router';
-import { Personnage } from './presonnage';
+import { Personnage } from './Personnage';
 import { SingletonListePersonnages } from './SingletonListePersonnage';
 
 @Component({

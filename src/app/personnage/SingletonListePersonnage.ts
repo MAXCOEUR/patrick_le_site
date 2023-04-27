@@ -1,4 +1,4 @@
-import { Personnage } from './presonnage';
+import { Personnage } from './Personnage';
 
 export class SingletonListePersonnages {
     private static instance: SingletonListePersonnages;

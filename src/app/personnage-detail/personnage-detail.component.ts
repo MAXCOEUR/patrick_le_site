@@ -1,7 +1,7 @@
 import { Component } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
-import { Personnage } from '../personnage/presonnage';
 import { SingletonListePersonnages } from '../personnage/SingletonListePersonnage';
+import { Personnage } from '../personnage/Personnage';
 
 @Component({
   selector: 'app-personnage-detail',
