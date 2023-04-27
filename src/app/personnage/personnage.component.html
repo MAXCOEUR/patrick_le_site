@@ -1,1 +1,7 @@
-<p>personnage works!</p>
+<section>
+    <h2>La Liste de tous les personnage : </h2>
+    <article *ngFor="let personnage of ListePeronnage" (click)="onEpisodeClick(personnage)">
+        <img src="assets/image/personnage/{{personnage.lienImage}}" alt="">
+        <h3>{{ personnage.nom }}</h3>
+    </article>
+</section>

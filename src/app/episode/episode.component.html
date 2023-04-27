@@ -1,6 +1,6 @@
 <section>
     <h2>La Liste de tous les épisodes : </h2>
-    <article *ngFor="let episode of listeEpisode; let i = index" (click)="onEpisodeClick(episode)">
+    <article *ngFor="let episode of listeEpisode" (click)="onEpisodeClick(episode)">
         <h3>{{ episode.titre }}</h3>
         <p>{{ episode.description }}</p>
     </article>

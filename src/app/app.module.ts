@@ -11,6 +11,7 @@ import { HeaderComponent } from './header/header.component';
 import { ReactiveFormsModule } from '@angular/forms';
 import { FooterComponent } from './footer/footer.component';
 import { EpisodeDetailComponent } from './episode-detail/episode-detail.component';
+import { PersonnageDetailComponent } from './personnage-detail/personnage-detail.component';
 
 @NgModule({
   declarations: [
@@ -21,7 +22,8 @@ import { EpisodeDetailComponent } from './episode-detail/episode-detail.componen
     JeuxComponent,
     HeaderComponent,
     FooterComponent,
-    EpisodeDetailComponent
+    EpisodeDetailComponent,
+    PersonnageDetailComponent
   ],
   imports: [
     BrowserModule,

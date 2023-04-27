@@ -11,7 +11,7 @@ import { Episode } from '../episode/Episode';
 })
 export class EpisodeDetailComponent implements OnInit {
 
-  episode: Episode= new Episode("null","null","null");
+  episode: Episode = new Episode("null", "null", "null");
 
   constructor(private route: ActivatedRoute, private sanitizer: DomSanitizer) { }
 
@@ -19,11 +19,11 @@ export class EpisodeDetailComponent implements OnInit {
     const id = this.route.snapshot.paramMap.get('id'); // Récupération de l'id de l'URL
     const foundEpisode = SingletonListepisode.getInstance().listeEpisode.find(e => e.id.toString() === id); // Recherche de l'épisode correspondant
     if (foundEpisode) {
-        this.episode = foundEpisode;
+      this.episode = foundEpisode;
     } else {
-      this.episode = new Episode("null","null","null");
+      this.episode = new Episode("null", "null", "null");
     }
-}
+  }
 
 
   getSafeUrl(url: string): SafeResourceUrl {
