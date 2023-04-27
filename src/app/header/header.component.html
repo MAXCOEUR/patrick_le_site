@@ -1,14 +1,14 @@
 <header>
-    <div class="logo">
+    <div class="logo" (click)="moveHome()">
         <img src="assets/image/personnage/Patrick.png" alt="">
     </div>
     <h1>{{ titre }}</h1>
     <nav [ngClass]="{ 'open': showMenu }">
         <ul>
-            <li><a href="">Accueil</a></li>
-            <li><a href="/episode">Épisode</a></li>
-            <li><a href="/personnage">Personnage</a></li>
-            <li><a href="/jeux">Jeux</a></li>
+            <li (click)="moveHome()">Accueil</li>
+            <li (click)="moveEpisode()">Épisodes</li>
+            <li (click)="movePersonnage()">Personnages</li>
+            <li (click)="moveJeux()">Jeux</li>
         </ul>
         <button class="hamburger-menu" (click)="toggleMenu()">
             <span></span>

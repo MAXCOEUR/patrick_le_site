@@ -13,7 +13,9 @@ header {
     width: 200px;
     display: flex;
     align-items: center;
+    cursor: pointer;
   }
+
   
   .logo img {
     object-fit: contain;
@@ -31,7 +33,7 @@ header {
     margin-right: 1rem;
   }
   
-  nav a {
+  nav li {
     color: #fff;
     text-decoration: none;
     font-size: 1.2rem;
@@ -40,9 +42,10 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
+    cursor: pointer;
   }
   
-  nav a:hover {
+  nav li:hover {
     background-color: #fff;
     color: #222;
   }
