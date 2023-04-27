@@ -10,14 +10,14 @@ header {
   }
   
   .logo {
-    height: 100px;
+    width: 200px;
     display: flex;
     align-items: center;
   }
   
   .logo img {
     object-fit: contain;
-    height: 100%;
+    width: 100%;
   }
   
   nav ul {
