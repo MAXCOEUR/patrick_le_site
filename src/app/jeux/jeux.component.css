@@ -1,0 +1,39 @@
+section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.intro{
+    background-color: gray;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 20px;
+    border: 1px black solid;
+}
+.intro a{
+    color: white;
+}
+
+.jeu div{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.jeu img{
+    width: 60%;
+}
+.jeu p{
+    padding: 40px;
+}
+
+.pair{
+    flex-direction: row-reverse;
+    background-color: #CBB279;
+}
+.impair{
+    flex-direction: row;
+    background-color: #E1D4BB;
+}

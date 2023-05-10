@@ -6,5 +6,6 @@ import { Component } from '@angular/core';
   styleUrls: ['./jeux.component.css']
 })
 export class JeuxComponent {
-
+    titre= "Patrick le Stégosaure le Jeu";
+    url_Download ="superUrl";
 }
