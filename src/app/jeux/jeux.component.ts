@@ -7,5 +7,5 @@ import { Component } from '@angular/core';
 })
 export class JeuxComponent {
     titre= "Patrick le Stégosaure le Jeu";
-    url_Download ="superUrl";
+    url_Download ="https://max-coeur.itch.io/patrick-le-stegosaure";
 }
